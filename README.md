@@ -25,7 +25,10 @@ Random choices done by the algorithm are fully parametrised, and can be changed.
 5. PREFERENCE_STRAIGHT : This variable creates more freespaces along the road than freespaces. 
 6. NO_OF_BUILDINGS: The number of dwellings in the final map.
 
-### Drawbacks
+![alt text](https://github.com/micsche/RandomCity/blob/main/images/straight.jpg)
+Straighter Roads Map
+
+### Drawbacks or ToDo
 1. Two roads intersect only when road corner is created. Two long roads cannot intersect at their ends.
 2. Some freespaces are created that can never be filled in. Purging must be implemented.
 3. As map grows larger, the algorithm finds it harder to place in dwellings.
